@@ -33,11 +33,11 @@ function Navbar() {
                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                        <li className='nav-item'>
                           <Link to='/' className='nav-links' onClick={closeMenu}>
-                             HOME
+                             Home
                           </Link>
                        </li>
                        <li className='nav-item'>
-                          <Link to='/Music' className='nav-links' onClick={closeMenu}>
+                          <Link to='../../Music' className='nav-links' onClick={closeMenu}>
                              Music
                           </Link>
                        </li>

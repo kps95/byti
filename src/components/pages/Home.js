@@ -1,10 +1,13 @@
 import React from 'react'
 import HeroSection from '../HeroSection'
+import '../../App.css'
 
-export default function Home() {
+ function Home() {
     return (
-        <div>
+        <>
             <HeroSection/>
-        </div>
+        </>
     )
 }
+
+export default Home;

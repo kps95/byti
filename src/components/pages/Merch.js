@@ -1,11 +1,22 @@
 import React from 'react'
+import logo from '../../logo.svg';
 
-import HeroSection from '../HeroSection';
 
 export default function Merch() {
     return (
-        <div>
-           <HeroSection/>
-        </div>
+    <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          In progress.....
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn eact
+        </a>
+    </div>
     )
 }
