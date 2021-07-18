@@ -11,11 +11,11 @@ import Contact from './components/pages/Contact';
 function App() {
   return (
     <>
+    <video src="/videos/Since96 Ft. DP - Purpose.mp4" controls autoPlay loop muted />
         <Router>
           <Navbar/>
              <Switch>
-               <Route path ='/' exact component=
-               {Home} />
+               <Route path ='/' exact />
                <Route path ='/Music' exact component=
                {Music} />
                <Route path ='/Merch' exact component=
@@ -24,6 +24,12 @@ function App() {
                {Contact} />
              </Switch>
         </Router>
+        <div className='App-link'>
+           <p>
+             Thinking...Since96
+           </p>
+        
+        </div>
     
     </>
   );

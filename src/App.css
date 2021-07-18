@@ -72,9 +72,12 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fbfafa;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 830px;
+    font-size: 2rem;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
