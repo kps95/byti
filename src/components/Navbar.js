@@ -42,7 +42,7 @@ function Navbar() {
                           </Link>
                        </li>
                        <li className='nav-item'>
-                          <Link to='/Merch' className='nav-links' onClick={closeMenu}>
+                          <Link to='../Merch' className='nav-links' onClick={closeMenu}>
                              Merch
                           </Link>
                        </li>
