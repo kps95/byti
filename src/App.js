@@ -16,6 +16,8 @@ function App() {
           <Navbar/>
              <Switch>
                <Route path ='/' exact />
+               <Route path ='/Home' exact component=
+               {Home} />
                <Route path ='/Music' exact component=
                {Music} />
                <Route path ='/Merch' exact component=
