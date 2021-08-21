@@ -7,7 +7,7 @@ export default function Merch() {
     <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          In progress.....
+          In .....
         </p>
         <a
           className="App-link"
